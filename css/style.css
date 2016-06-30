@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2', sans-serif; }
+
+h1 {
+  text-align: center;
+  padding: 20px 0; }
+
+p {
+  margin-bottom: 10px; }
+
+body {
+  background-size: 5%;
+  background-color: #f3f3f3; }
+
+.less {
+  display: none; }
+
+.header {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0 20px; }
+  .header .filters {
+    padding-top: 20px; }
+  .header a {
+    line-height: 3rem; }
+
+.all-medicine-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px; }
+
+.all-medicine-wrapper__medicine {
+  display: inline-block;
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff; }
+  .all-medicine-wrapper__medicine h2 {
+    margin-bottom: 5px; }
+  .all-medicine-wrapper__medicine__tags {
+    padding-top: 15px; }
+  .all-medicine-wrapper__medicine a {
+    line-height: 3rem; }
+
+.filter {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 1px 8px 3px;
+  margin: 4px;
+  color: #fff;
+  wrap: no-wrap;
+  cursor: pointer;
+  font-size: 0.8rem; }
+  .filter_antibiotic, .filter_antivirus {
+    background-color: #f79780; }
+  .filter_antiseptic {
+    background-color: #afe5f0; }
+  .filter_nose, .filter_vasculomotor {
+    background-color: #96d4ae; }
+  .filter_throat {
+    background-color: #f5d797; }
+  .filter_anti-pain, .filter_local-anti-pain {
+    background-color: #dec2e4; }
+  .filter_spray {
+    background-color: #ddd; }
+  .filter_anti-inflammatory {
+    background-color: #c49f80; }
+
+.medicine-detailed {
+  padding: 20px 40px; }
+  .medicine-detailed ul {
+    padding-left: 20px; }
+    .medicine-detailed ul li {
+      margin-bottom: 5px; }
+  .medicine-detailed > * {
+    margin-bottom: 20px; }
+  .medicine-detailed h3 {
+    margin-bottom: 10px; }
+  .medicine-detailed__side-effect ul {
+    display: none; }
+  .medicine-detailed__image {
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
